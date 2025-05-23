@@ -1,0 +1,18 @@
+# Dependencies
+/node_modules/
+
+# Build output
+/dist/
+/build/
+
+# 캐시
+.eslintcache
+.prettiercache
+
+# 로그
+npm-debug.log*
+yarn-debug.log*
+
+*storybook.log
+
+taskbox/

@@ -2,13 +2,13 @@
   "name": "@yundal/calendar-ui",
   "private": false,
   "version": "0.1.3",
-  "main": "dist/App.cjs",
-  "module": "dist/App.mjs",
-  "types": "dist/App.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/App.mjs",
-      "require": "./dist/App.cjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
     },
     "./dist/style.css": "./dist/style.css"
   },
@@ -56,8 +56,8 @@
     "react-dom": ">=18"
   },
   "scripts": {
-    "dev": "tsup src/App.tsx --format esm,cjs --watch --dts",
-    "build": "tsup src/App.tsx --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },

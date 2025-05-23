@@ -1,0 +1,7 @@
+.storybook
+src/**/*.stories.*
+src/**/*.test.*
+src/**/__tests__/
+src/**/*.spec.*
+*.stories.*
+*.test.*
