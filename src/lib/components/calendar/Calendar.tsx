@@ -2,7 +2,7 @@ import useMonthlyCalendar from '@/lib/hooks/useMonthlyCalendar';
 import '@/lib/index.css';
 import { CalenderComponents } from '.';
 
-export function Calendar() {
+function Calendar() {
     const { currentYear, currentMonth, goToPrevOrNextMonth } =
     useMonthlyCalendar();
 
@@ -19,3 +19,4 @@ export function Calendar() {
     )
 }
 
+export default Calendar;

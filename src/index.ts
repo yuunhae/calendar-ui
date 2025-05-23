@@ -1,3 +1,4 @@
 import "@/lib/index.css";
 
-export { Calendar } from './lib/components/calendar/Calendar';
+import Calendar from './lib/components/calendar/Calendar';
+export default Calendar;

@@ -1,7 +1,7 @@
 // src/App.stories.tsx
 
 import type { Meta, StoryObj } from '@storybook/react';
-import { Calendar } from '@/lib/components/calendar/Calendar';
+import Calendar from '@/lib/components/calendar/Calendar';
 
 const meta: Meta<typeof Calendar> = {
   title: 'Calendar/Calendar',

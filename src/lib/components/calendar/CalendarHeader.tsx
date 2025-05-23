@@ -25,7 +25,7 @@ const CalendarHeader = ({
         className="flex items-center"
         aria-label="Calendar Date Information"
       >
-         <h2 className="head-24-600 text-start">
+          <h2 className="head-24-600 text-start">
           {`${monthNames[currentMonth]} ${currentYear}`}
         </h2>
       </nav>
@@ -43,7 +43,7 @@ const CalendarHeader = ({
         <img src={LeftArrowIcon} aria-hidden="true" className='w-10 max-w-full h-auto' />
           {/* <LeftArrowIcon aria-hidden="true" /> */}
         </button>
-        <button 
+        <button
           type="button"
           className='flex h-full items-center border rounded-sm border-gray-300 p-10'
           onClick={goToNextMonth} 
@@ -53,11 +53,6 @@ const CalendarHeader = ({
           {/* <RightArrowIcon aria-hidden="true" /> */}
         </button>
       </nav>
-
-       
-                
-
-    
     </header>
   );
 };
