@@ -19,7 +19,7 @@ export default defineConfig([
     "warn",
     {
     "groups": ["builtin", "external", ["parent", "sibling"], "index"],
-    "newlines-between": "always"
+    "newlines-between": "ignore"
     }
   ],
   "@typescript-eslint/no-unnecessary-type-constraint": "off",
