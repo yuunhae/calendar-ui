@@ -11,7 +11,7 @@ const CalendarCell = ({
 }) => {
   return (
     <li
-      className={`flex min-h-62 h-full w-full items-start border border-gray-300 rounded-8  hover:bg-gray-100 transition-colors duration-200 ease-in cursor-pointer `}
+      className={`flex min-h-62 h-full w-full items-start border border-gray-300 rounded-8 bg-color-transition hover:bg-gray-200 `}
     >
         <time
           dateTime={day.formattedDate}

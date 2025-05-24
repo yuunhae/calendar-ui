@@ -72,3 +72,8 @@
 .caption-12-500 {
   @apply text-12 font-medium leading-[1rem];
 }
+
+/*bg-color transition*/
+.bg-color-transition {
+  @apply transition-colors duration-200 ease-in cursor-pointer;
+}

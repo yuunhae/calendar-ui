@@ -1,6 +1,3 @@
-import LeftArrowIcon from '@/lib/assets/left-arrow.svg';
-import RightArrowIcon from '@/lib/assets/right-arrow.svg';
-
 const monthNames = [  "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December" ];
 
@@ -36,18 +33,19 @@ const CalendarHeader = ({
       >
         <button
           type="button"
-          className='flex h-full items-center border rounded-sm border-gray-300 p-10'
+          className='flex h-full items-center border rounded-8 border-gray-300 p-10 text-15 font-thin bg-color-transition hover:bg-gray-200'
           onClick={goToPrevMonth}
           aria-label="Previous month"
         >
-        <img src={LeftArrowIcon} aria-hidden="true" className='w-10 max-w-full h-auto' />
+          <text className="mb-2">Prev</text>
         </button>
         <button
           type="button"
-          className='flex h-full items-center border rounded-sm border-gray-300 p-10'
-          onClick={goToNextMonth} 
+          className='flex h-full items-center border rounded-8 border-gray-300 p-10 text-15 font-thin bg-color-transition hover:bg-gray-200'
+          onClick={goToNextMonth}
           aria-label="Next month">
-          <img src={RightArrowIcon} aria-hidden="true" className='w-10 max-w-full h-auto' />
+          <text className="mb-2">Next</text>
+
         </button>
       </nav>
     </header>
