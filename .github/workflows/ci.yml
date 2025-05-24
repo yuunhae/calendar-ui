@@ -5,8 +5,8 @@ on:
     branches : main
 
 jobs:
-  test and build:
-    runs-on: ubuntu-lastest
+  build:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Source Code
