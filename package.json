@@ -16,7 +16,7 @@
     "dist"
   ],
   "repository": "https://github.com/yuunhae/calendar-ui.git",
-  "author": "yuunhae",
+  "author": "yunhae",
   "license": "MIT",
   "description": "An easy-to-use React calendar component written in TypeScript, optimized and bundled with tsup.",
   "devDependencies": {
