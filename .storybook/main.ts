@@ -1,5 +1,6 @@
-import type { StorybookConfig } from '@storybook/react-vite';
+/* eslint-disable import/order */
 import path from 'path';
+import type { StorybookConfig } from '@storybook/react-vite';
 import svgr from 'vite-plugin-svgr'; // ← 추가
 
 const config: StorybookConfig = {

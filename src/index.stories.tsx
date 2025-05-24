@@ -1,6 +1,5 @@
-// src/App.stories.tsx
-
 import type { Meta, StoryObj } from '@storybook/react';
+
 import Calendar from '@/lib/components/calendar/Calendar';
 
 const meta: Meta<typeof Calendar> = {
@@ -12,7 +11,7 @@ export default meta;
 type Story = StoryObj<typeof Calendar>;
 
 export const Default: Story = {
-    args: {
+  args: {
     currentYear: 2025,
     currentMonth: 6,
     goToPrevMonth: () => console.log('Prev'),

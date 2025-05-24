@@ -1,4 +1,3 @@
-
 const CalendarCell = ({
   day,
   isCurrentMonth,
@@ -11,21 +10,18 @@ const CalendarCell = ({
 }) => {
   return (
     <li
-      className={`flex min-h-62 h-full w-full items-start border border-gray-300 rounded-8 bg-color-transition hover:bg-gray-200 `}
+      className={`bg-color-transition flex h-full min-h-62 w-full items-start rounded-8 border border-gray-300 hover:bg-gray-200`}
     >
-        <time
-          dateTime={day.formattedDate}
-          className={`body-16-400 w-full ${
-            isCurrentMonth ? 'text-gray-700' : 'text-gray-400'
-          }`}
-        >
-          {day.kstDate.getDate()}
-        </time>
-
+      <time
+        dateTime={day.formattedDate}
+        className={`body-16-400 w-full ${
+          isCurrentMonth ? 'text-gray-700' : 'text-gray-400'
+        }`}
+      >
+        {day.kstDate.getDate()}
+      </time>
     </li>
-
   );
 };
 
 export default CalendarCell;
-
