@@ -1,5 +1,4 @@
 import useMonthlyCalendar from '@/lib/hooks/useMonthlyCalendar';
-import '@/lib/index.css';
 import { CalenderComponents } from '.';
 
 function Calendar() {

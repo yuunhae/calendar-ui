@@ -10,13 +10,13 @@
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
     },
-    "./dist/style.css": "./dist/style.css"
+  "./index.css": "./dist/index.css"
   },
   "files": [
     "dist"
   ],
   "repository": "https://github.com/yuunhae/calendar-ui.git",
-  "author": "yuunhae <susu492@naver.com>",
+  "author": "yuunhae",
   "license": "MIT",
   "description": "An easy-to-use React calendar component written in TypeScript, optimized and bundled with tsup.",
   "devDependencies": {
@@ -57,9 +57,11 @@
   },
   "scripts": {
     "dev": "tsup src/index.ts --format esm,cjs --watch --dts",
-    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "build": "tsup src/index.ts --format esm,cjs --dts && yarn build-tailwind",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build-tailwind": "npx tailwindcss -c tailwind.config.js -i ./src/lib/index.css -o ./dist/index.css --minify"
+
   },
   "eslintConfig": {
     "extends": [
