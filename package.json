@@ -1,7 +1,7 @@
 {
   "name": "@yundal/calendar-ui",
   "private": false,
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -10,7 +10,7 @@
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
     },
-  "./index.css": "./dist/index.css"
+    "./index.css": "./dist/index.css"
   },
   "files": [
     "dist"
@@ -61,7 +61,6 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build-tailwind": "npx tailwindcss -c tailwind.config.js -i ./src/lib/index.css -o ./dist/index.css --minify"
-
   },
   "eslintConfig": {
     "extends": [
