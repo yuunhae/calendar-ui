@@ -41,7 +41,6 @@ const CalendarHeader = ({
           aria-label="Previous month"
         >
         <img src={LeftArrowIcon} aria-hidden="true" className='w-10 max-w-full h-auto' />
-          {/* <LeftArrowIcon aria-hidden="true" /> */}
         </button>
         <button
           type="button"
@@ -49,8 +48,6 @@ const CalendarHeader = ({
           onClick={goToNextMonth} 
           aria-label="Next month">
           <img src={RightArrowIcon} aria-hidden="true" className='w-10 max-w-full h-auto' />
-
-          {/* <RightArrowIcon aria-hidden="true" /> */}
         </button>
       </nav>
     </header>
