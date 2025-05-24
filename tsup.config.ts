@@ -8,6 +8,6 @@ export default defineConfig({
   dts: true,
   minify: true,
   loader:{
-    './svg' : 'file',
+    './svg' : 'dataurl',
   }
 })
