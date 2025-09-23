@@ -1,4 +1,4 @@
-import { CalenderComponents } from '.';
+import { CalendarComponents } from '.';
 
 import useMonthlyCalendar from '@/lib/hooks/useMonthlyCalendar';
 
@@ -10,7 +10,7 @@ function Calendar() {
   const goToNextMonth = () => goToPrevOrNextMonth(1);
   return (
     <div className="w-full max-w-[750px] px-4 sm:px-6 lg:px-8">
-      <CalenderComponents
+      <CalendarComponents
         currentYear={currentYear}
         currentMonth={currentMonth}
         goToPrevMonth={goToPrevMonth}

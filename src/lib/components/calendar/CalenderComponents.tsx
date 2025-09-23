@@ -5,7 +5,7 @@ import {
 } from '@/lib/components/calendar';
 import { generateCalendar } from '@/lib/utils/dateUtils';
 
-const CalenderComponents = ({
+const CalendarComponents = ({
   currentYear,
   currentMonth,
   goToPrevMonth,
@@ -49,4 +49,4 @@ const CalenderComponents = ({
   );
 };
 
-export default CalenderComponents;
+export default CalendarComponents;
