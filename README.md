@@ -2,19 +2,15 @@
 ---
 Calendar-ui provides easy-to-use , yet simple react calendar component with convenient monthly navigation(prev, next).
 
-Calendar's year and month are set based on KST.
+Calendar's year and month are set based on the user's local timezone automatically.
 
 
-- Monthly navigation (prev, next)
-- Styling powered by Tailwind CSS
-- TypeScript support
 ### Installation
 ```
 yarn add @yundal/calendar-ui
 # or
 npm install @yundal/calendar-ui
 ```
-
 
 ### Usage
 ```
@@ -25,7 +21,23 @@ function App() {
   return <Calendar />;
 }
 ```
+
+### Features
+📅 Simple monthly calendar view  
+⬅️➡️ Previous/Next month navigation  
+🎨 Customizable with Tailwind CSS  
+🔧 TypeScript support  
+🌍 Automatic timezone detection  
+
+### Browser Support
+Chrome, Firefox, Safari, Edge (modern versions)
+
+### Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+### Changelog
+See [CHANGELOG.md](CHANGELOG.md) for version history.
+
 ### License
 ---
 MIT
-
