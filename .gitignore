@@ -16,3 +16,27 @@ yarn-debug.log*
 *storybook.log
 
 taskbox/
+
+# 환경 변수 파일
+.env
+.env.*
+
+# 운영체제별 파일
+.DS_Store
+Thumbs.db
+
+# IDE/에디터 설정
+.vscode/
+.idea/
+
+# 테스트 커버리지
+/coverage/
+
+# 타입스크립트 빌드 아웃풋
+*.tsbuildinfo
+
+# npm 패키지 잠금파일
+/package-lock.json
+
+# Storybook 빌드 결과
+/storybook-static/
