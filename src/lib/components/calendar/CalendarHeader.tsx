@@ -30,14 +30,17 @@ const CalendarHeader = ({
       aria-label="Calendar header"
     >
       <nav className="flex items-center" aria-label="Calendar Date Information">
-        <h2 className="head-24-600 text-start">
+        <h2
+          className="head-24-600 text-start"
+          aria-label={`${monthNames[currentMonth]} ${currentYear}`}
+        >
           {`${monthNames[currentMonth]} ${currentYear}`}
         </h2>
       </nav>
 
       <nav
         className="mr-20 flex h-full items-center gap-10"
-        aria-label="Calendar navigation"
+        aria-label="Calendar navigation buttons"
       >
         <button
           type="button"
@@ -45,7 +48,7 @@ const CalendarHeader = ({
           onClick={goToPrevMonth}
           aria-label="Previous month"
         >
-          <text className="mb-2">Prev</text>
+          <span className="mb-2">Prev</span>
         </button>
         <button
           type="button"
@@ -53,7 +56,7 @@ const CalendarHeader = ({
           onClick={goToNextMonth}
           aria-label="Next month"
         >
-          <text className="mb-2">Next</text>
+          <span className="mb-2">Next</span>
         </button>
       </nav>
     </header>

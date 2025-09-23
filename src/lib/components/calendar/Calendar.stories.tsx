@@ -4,15 +4,10 @@ import Calendar from './Calendar';
 
 const meta: Meta<typeof Calendar> = {
   title: 'Calendar/Calendar',
-  component: Calendar
+  component: Calendar,
 };
 
 export default meta;
 type Story = StoryObj<typeof Calendar>;
 
-export const Default: Story = {
-  args: {
-    currentYear: 2025,
-    currentMonth: 5,
-  },
-};
+export const Default: Story = {};
