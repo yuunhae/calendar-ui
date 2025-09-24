@@ -1,4 +1,8 @@
 ### Calendar-ui
+
+![npm](https://img.shields.io/npm/v/@yundal/calendar-ui)
+![npm](https://img.shields.io/npm/dm/@yundal/calendar-ui)
+![npm](https://img.shields.io/npm/dt/@yundal/calendar-ui)
 ---
 Calendar-ui provides easy-to-use , yet simple react calendar component with convenient monthly navigation(prev, next).
 
