@@ -1,4 +1,3 @@
-
 export interface WeekDate {
   day: string;
   month: string;
@@ -19,4 +18,3 @@ export type WeekDates = [
 export interface CalendarProps {
   size?: 'sm' | 'md' | 'lg';
 }
-
