@@ -1,6 +1,6 @@
 import path from 'path';
 import type { StorybookConfig } from '@storybook/react-vite';
-import svgr from 'vite-plugin-svgr'; // ← 추가
+import svgr from 'vite-plugin-svgr';
 
 const config: StorybookConfig = {
   "stories": [

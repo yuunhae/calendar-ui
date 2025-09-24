@@ -1,8 +1,9 @@
 import { useState } from 'react';
 
 function useMonthlyCalendar() {
-  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
-  const [currentMonth, setCurrentMonth] = useState(new Date().getMonth()); //0-indexed
+  const currentDate = new Date();
+  const [currentYear, setCurrentYear] = useState(currentDate.getFullYear());
+  const [currentMonth, setCurrentMonth] = useState(currentDate.getMonth()); //0-indexed
 
   const goToPrevOrNextMonth = (deltaMonth: number) => {
     setCurrentMonth(prevMonth => {
