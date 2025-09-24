@@ -3,7 +3,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
-## [1.1.0] - 2025-09-23
+## [0.1.12] - 2025-09-24
+### Added
+- Calendar size variants (sm, md, lg) with customizable dimensions
+- Comprehensive Calendar Storybook stories for all size variants
+
+### Changed
+- Optimized `useMonthlyCalendar` hook performance by extracting currentDate variable
+- Updated WeekdayHeader styling with improved padding (py-5)
+- Consolidated Calendar component export in index.ts
+
+### Removed
+- Unused individual component stories (CalendarCell.stories.tsx, CalendarHeader.stories.tsx)
+
+## [1.1.0]
 ### Added
 - `"type": "module"` to package.json for ES Module support
 - Storybook stories for `CalendarCell` and `CalendarHeader`.
