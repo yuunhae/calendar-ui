@@ -21,6 +21,10 @@ function App() {
   return <Calendar />;
 }
 ```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/528824d1-24d6-47bc-b02d-c2d640bd26ab" alt="Calender Example" style="width: 400px"/>
+</p>
+
 
 ### Features
 📅 Simple monthly calendar view  
